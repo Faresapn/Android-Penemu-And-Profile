@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Ilmuwan Dunia</string>
+    <string name="profile">Profile</string>
+
+    <string-array name="name">
+        <item>Albert Einstein</item>
+        <item>Alessandro Volta</item>
+        <item>Alexander Graham Bell</item>
+        <item>Alfred Nobel</item>
+        <item>Konrad Zuse</item>
+        <item>Otto Hahn </item>
+        <item>Thomas Alva Edison</item>
+        <item>Wernher Von Braun</item>
+        <item>Werner von Siemens</item>
+        <item>Wilhelm Conrad Röntgen</item>
+    </string-array>
+
+    <array name="image">
+        <item>@drawable/almass</item>
+        <item>@drawable/bintang</item>
+        <item>@drawable/fadhil</item>
+        <item>@drawable/faza</item>
+        <item>@drawable/garry</item>
+        <item>@drawable/raihann</item>
+        <item>@drawable/almass</item>
+        <item>@drawable/bintang</item>
+        <item>@drawable/fadhil</item>
+        <item>@drawable/faza</item>
+    </array>
+
+    <string-array name="addres">
+        <item>Penemu teori relativitas.</item>
+        <item>Penemu Batu baterai</item>
+        <item>Penemu Telepon (Versi Lama), Piringan hitam.</item>
+        <item>Penemu Dinamit.</item>
+        <item>Penemu Komputer.</item>
+        <item>Penemu menemukan fisi nuklir.</item>
+        <item>Penemu Bola lampu, Proyektor film, tahun 1893</item>
+        <item>Penemu  Pengembang Teknologi Roketengembang Teknologi Roket</item>
+        <item>Penemu Perusahaan Listrik dan Telekomunikasi Siemens</item>
+        <item>Penemu  Sinar-X.</item>
+    </string-array>
+</resources>

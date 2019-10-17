@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/imgDetail"
+        android:layout_width="169dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="187dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imgDetail"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Barcelona jsnjdnajsndj" />
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="118dp"
+        android:layout_height="109dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="tttttttttttttttttttttt"
+
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/imgDetail"
+        app:layout_constraintTop_toBottomOf="@+id/nama" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
